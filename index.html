@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Snailia – Natural Skin Beauty</title>
+
+<!-- ✅ FORCE DESKTOP VIEW ON MOBILE -->
+<meta name="viewport" content="width=1200">
+
+<title>kids fashion</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
@@ -12,12 +15,28 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-  font-family:'Inter',sans-serif;
+  font-family:'Inter',Comic Sans MS;
 }
 
+/* ✅ PREVENT MOBILE STACKING */
+html, body{
+  min-width:1200px;
+}
+
+/* ===== BACKGROUND IMAGE OPTION ===== */
 body{
-  background:#eef6ef;
-  color:#1f2d27;
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color:black;
+}
+
+/* Optional overlay for readability */
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:rgba(255,255,255,0.3);
+  z-index:-1;
 }
 
 /* NAVBAR */
@@ -36,7 +55,7 @@ header .logo{
 header nav a{
   margin:0 15px;
   text-decoration:none;
-  color:#1f2d27;
+  color:pink;
   font-weight:500;
 }
 
@@ -173,26 +192,6 @@ header .icons{
   display:inline-block;
 }
 
-/* TESTIMONIALS */
-.testimonials{
-  padding:80px 60px;
-  background:white;
-}
-
-.testimonials h2{
-  text-align:center;
-  font-size:36px;
-  margin-bottom:40px;
-}
-
-.testimonial{
-  max-width:600px;
-  margin:20px auto;
-  background:#eef6ef;
-  padding:30px;
-  border-radius:18px;
-}
-
 /* FOOTER */
 footer{
   text-align:center;
@@ -206,56 +205,50 @@ footer{
 <body>
 
 <header>
-  <div class="logo">snailia</div>
+  <div class="logo">lunebaby</div>
   <nav>
-    <a href="#products">Products</a>
-    <a href="#">Story</a>
-    <a href="#">Manufacturing</a>
-    <a href="#">Packages</a>
-    <a href="#">Team</a>
+    <a href="#products"></a>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
   </nav>
   <div class="icons">🛒 👤</div>
 </header>
 
 <section class="hero">
   <div class="hero-text">
-    <h1>snailia</h1>
-    <p>
-      Natural skincare powered by snail mucin and organic ingredients.
-      Gentle on your skin, powerful in results.
-    </p>
-    <a href="#products">Explore the Store</a>
+    <h1>lune baby</h1>
+    <p></p>
+    <a href="https://www.instagram.com/lunebaby.in?igsh=MTVvNTIzZXQycTdmcg==">Explore the Store</a>
   </div>
 
   <div class="hero-product">
-    <img src="1.png" alt="Snailia Product">
+    <img src="1.png" alt="lune baby">
   </div>
 </section>
 
 <section class="stats">
-  <div><strong>25,356</strong>Happy Customers</div>
-  <div><strong>6,050</strong>Followers</div>
-  <div><strong>851</strong>Shops</div>
+  <div><strong>1</strong>Happy Customers</div>
+  <div><strong>135</strong>Followers</div>
+  <div><strong>1</strong>Shops</div>
   <div><strong>95%</strong>Satisfaction</div>
 </section>
 
 <section class="why">
-  <h2>Why Snailia?</h2>
+  <h2>lunebaby</h2>
   <div class="features">
     <div class="feature">
-      <span>🌱</span>
-      <h3>Natural</h3>
-      <p>Pure organic ingredients.</p>
+      <h3>AFFORDABLE PRICE</h3>
+      <p>⭐⭐⭐</p>
     </div>
     <div class="feature">
-      <span>🚫</span>
-      <h3>No Side Effects</h3>
-      <p>Dermatologically tested.</p>
+      <h3>IMPORTED PRODUCTS</h3>
+      <p>⭐⭐⭐</p>
     </div>
     <div class="feature">
-      <span>♻️</span>
-      <h3>Eco Friendly</h3>
-      <p>Sustainable packaging.</p>
+      <h3>HIGH QUALITY</h3>
+      <p>⭐⭐⭐</p>
     </div>
   </div>
 </section>
@@ -264,31 +257,30 @@ footer{
   <h2>Our Products</h2>
   <div class="product-grid">
     <div class="product">
-      <img src="images/serum.png" alt="Snail Serum">
-      <h3>Snail Serum</h3>
-      <p>$29</p>
-      <a href="cart.html">Add to Cart</a>
+      <img src="kp.jpg">
+      <h3>baby dress</h3>
+      <p>$7</p>
+      <a href="https://www.instagram.com/p/DT-31TqktEf/">Add to Cart</a>
     </div>
-    <div class="product">
-      <img src="images/moisturizer.png" alt="Snail Moisturizer">
-      <h3>Snail Moisturizer</h3>
-      <p>$35</p>
-      <a href="https://www.amazon.fr/">Add to Cart</a>
-    </div>
-  </div>
-</section>
 
-<section class="testimonials">
-  <h2>Testimonials</h2>
-  <div class="testimonial">
-    ⭐⭐⭐⭐⭐  
-    <p>“My skin has never felt better. Snailia is amazing!”</p>
-    <strong>— Sarah M.</strong>
+    <div class="product">
+      <img src="2.png">
+      <h3>unisex dress</h3>
+      <p>$8</p>
+      <a href="https://www.instagram.com/p/DUBb3VCkki-/">Add to Cart</a>
+    </div>
+
+    <div class="product">
+      <img src="3.png">
+      <h3>unisex dress</h3>
+      <p>$8</p>
+      <a href="https://www.instagram.com/p/DUAas4OETBx/">Add to Cart</a>
+    </div>
   </div>
 </section>
 
 <footer>
-  © 2026 Snailia. All rights reserved.
+  © 2026 lunebaby. All rights reserved.
 </footer>
 
 </body>
