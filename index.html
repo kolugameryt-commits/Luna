@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snailia – Natural Skin Beauty</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Inter',sans-serif;
+}
+
+body{
+  background:#eef6ef;
+  color:#1f2d27;
+}
+
+/* NAVBAR */
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:25px 60px;
+}
+
+header .logo{
+  font-size:28px;
+  font-weight:700;
+}
+
+header nav a{
+  margin:0 15px;
+  text-decoration:none;
+  color:#1f2d27;
+  font-weight:500;
+}
+
+header .icons{
+  font-size:20px;
+}
+
+/* HERO */
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:80px 60px;
+}
+
+.hero-text{
+  max-width:480px;
+}
+
+.hero-text h1{
+  font-size:72px;
+  margin-bottom:20px;
+}
+
+.hero-text p{
+  line-height:1.7;
+  margin-bottom:30px;
+}
+
+.hero-text a{
+  padding:15px 32px;
+  background:#6e9f86;
+  color:white;
+  border-radius:8px;
+  font-size:16px;
+  text-decoration:none;
+  display:inline-block;
+}
+
+.hero-product{
+  background:#dfeee5;
+  padding:40px;
+  border-radius:20px;
+}
+
+.hero-product img{
+  width:300px;
+}
+
+/* STATS */
+.stats{
+  display:flex;
+  justify-content:space-around;
+  padding:40px;
+  background:white;
+}
+
+.stats div{
+  text-align:center;
+}
+
+.stats strong{
+  font-size:30px;
+  display:block;
+}
+
+/* WHY */
+.why{
+  padding:80px 60px;
+  text-align:center;
+}
+
+.why h2{
+  font-size:38px;
+  margin-bottom:50px;
+}
+
+.features{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+}
+
+.feature{
+  background:white;
+  padding:35px;
+  border-radius:18px;
+  width:250px;
+}
+
+.feature span{
+  font-size:36px;
+}
+
+.feature h3{
+  margin:15px 0;
+}
+
+/* PRODUCTS */
+.products{
+  padding:80px 60px;
+}
+
+.products h2{
+  text-align:center;
+  font-size:36px;
+  margin-bottom:40px;
+}
+
+.product-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+}
+
+.product{
+  background:white;
+  padding:25px;
+  border-radius:18px;
+  text-align:center;
+}
+
+.product img{
+  width:150px;
+}
+
+.product a{
+  margin-top:15px;
+  padding:10px 22px;
+  background:#6e9f86;
+  color:white;
+  border-radius:6px;
+  text-decoration:none;
+  display:inline-block;
+}
+
+/* TESTIMONIALS */
+.testimonials{
+  padding:80px 60px;
+  background:white;
+}
+
+.testimonials h2{
+  text-align:center;
+  font-size:36px;
+  margin-bottom:40px;
+}
+
+.testimonial{
+  max-width:600px;
+  margin:20px auto;
+  background:#eef6ef;
+  padding:30px;
+  border-radius:18px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:25px;
+  background:#dfeee5;
+  margin-top:60px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">snailia</div>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#">Story</a>
+    <a href="#">Manufacturing</a>
+    <a href="#">Packages</a>
+    <a href="#">Team</a>
+  </nav>
+  <div class="icons">🛒 👤</div>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>snailia</h1>
+    <p>
+      Natural skincare powered by snail mucin and organic ingredients.
+      Gentle on your skin, powerful in results.
+    </p>
+    <a href="#products">Explore the Store</a>
+  </div>
+
+  <div class="hero-product">
+    <img src="1.png" alt="Snailia Product">
+  </div>
+</section>
+
+<section class="stats">
+  <div><strong>25,356</strong>Happy Customers</div>
+  <div><strong>6,050</strong>Followers</div>
+  <div><strong>851</strong>Shops</div>
+  <div><strong>95%</strong>Satisfaction</div>
+</section>
+
+<section class="why">
+  <h2>Why Snailia?</h2>
+  <div class="features">
+    <div class="feature">
+      <span>🌱</span>
+      <h3>Natural</h3>
+      <p>Pure organic ingredients.</p>
+    </div>
+    <div class="feature">
+      <span>🚫</span>
+      <h3>No Side Effects</h3>
+      <p>Dermatologically tested.</p>
+    </div>
+    <div class="feature">
+      <span>♻️</span>
+      <h3>Eco Friendly</h3>
+      <p>Sustainable packaging.</p>
+    </div>
+  </div>
+</section>
+
+<section class="products" id="products">
+  <h2>Our Products</h2>
+  <div class="product-grid">
+    <div class="product">
+      <img src="images/serum.png" alt="Snail Serum">
+      <h3>Snail Serum</h3>
+      <p>$29</p>
+      <a href="cart.html">Add to Cart</a>
+    </div>
+    <div class="product">
+      <img src="images/moisturizer.png" alt="Snail Moisturizer">
+      <h3>Snail Moisturizer</h3>
+      <p>$35</p>
+      <a href="https://www.amazon.fr/">Add to Cart</a>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <h2>Testimonials</h2>
+  <div class="testimonial">
+    ⭐⭐⭐⭐⭐  
+    <p>“My skin has never felt better. Snailia is amazing!”</p>
+    <strong>— Sarah M.</strong>
+  </div>
+</section>
+
+<footer>
+  © 2026 Snailia. All rights reserved.
+</footer>
+
+</body>
+</html>
